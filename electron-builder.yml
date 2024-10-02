@@ -1,6 +1,5 @@
 appId: party.mihomo.app
 productName: mihomo-party
-executableName: mihomo-party
 directories:
   buildResources: build
 files:
@@ -50,6 +49,7 @@ mac:
   artifactName: ${name}-macos-${version}-${arch}.${ext}
 linux:
   desktop:
+    Name: Mihomo Party
     MimeType: 'x-scheme-handler/clash;x-scheme-handler/mihomo'
   target:
     - deb
